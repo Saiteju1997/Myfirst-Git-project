@@ -1,0 +1,24 @@
+#surefire
+#Thu Aug 08 08:00:15 UTC 2019
+testClassesDirectory=/root/apache-maven-3.6.0/bin/saiteja-app/target/test-classes
+classPathUrl.2=/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=/root/apache-maven-3.6.0/bin/saiteja-app/target/classes
+reportsDirectory=/root/apache-maven-3.6.0/bin/saiteja-app/target/surefire-reports
+classPathUrl.0=/root/apache-maven-3.6.0/bin/saiteja-app/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/root/apache-maven-3.6.0/bin/saiteja-app/src/test/java
+surefireClassPathUrl.1=/root/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+surefireClassPathUrl.0=/root/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+tc.0=com.saiteja.app.AppTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=/root/apache-maven-3.6.0/bin/saiteja-app/.surefire-119A404160F0D569C6D4DED930AF84219D83F036
+includes0=**/Test*.java
+childDelegation=false
