@@ -6,7 +6,7 @@ def mvnHome
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
-      mvnHome = tool 'Maven'
+      mvnHome = tool 'Maven2'
    }
    stage('Build') {
       // Run the maven build
