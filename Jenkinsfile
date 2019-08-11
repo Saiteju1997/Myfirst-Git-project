@@ -1,6 +1,5 @@
-node 'Node1'
-{
-   def mvnHome
+node 'Node1' {
+def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/Saiteju1997/Myfirst-Git-project/'
