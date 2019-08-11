@@ -1,4 +1,4 @@
-node 'Node1' {
+node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
@@ -6,7 +6,7 @@ node 'Node1' {
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
-      mvnHome = tool 'Maven2'
+      mvnHome = tool 'Maven'
    }
    stage('Build') {
       // Run the maven build
