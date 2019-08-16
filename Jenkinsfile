@@ -18,6 +18,11 @@ pipeline {
                 echo 'this is saiteja'
             }
         }
+        stage('build') {
+            steps {
+                sh 'mvn install'
+            }
+        }
     }
 }
 
