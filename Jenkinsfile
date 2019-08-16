@@ -5,9 +5,12 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
+        }
+            stage('second example') {
             steps {
                 echo 'this is saiteja'
             }
         }
     }
 }
+
